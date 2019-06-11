@@ -18,6 +18,10 @@ describe('Cart Methods:', function() {
     cart.total = 0;
   });
 
+  // beforeEach(){}
+  // beforeAll() {}
+  // afterAll(){}
+
   test('addToCart() should add a car object to the cart array.', function() {
     cart.addToCart(cars[0]);
     cart.addToCart(cars[1]);
